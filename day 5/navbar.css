@@ -1,0 +1,42 @@
+*
+{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+
+}
+.main{
+    width: 100%;
+    height: 80px;
+    background-color: aqua;
+    line-height: 80px;
+}
+.main .mainli
+{
+    float: left;
+    list-style-type: none;
+    padding: 0px 10px 0px 10px;
+    font-size: 20px;
+}
+.sublist
+{
+    list-style: none;
+   
+}
+.sublsit .subcontent
+{
+    display: block;
+    background-color: aquamarine;
+    width: 100%;
+    height: 40px;
+    
+}
+.main .mainli a
+{
+    text-decoration: none;
+    color: aliceblue;
+}
+.main .mainli a:hover 
+{
+    color:crimson;
+}

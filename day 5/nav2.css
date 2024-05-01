@@ -1,0 +1,44 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.container {
+    height: 80px;
+    background-color: rgb(194, 222, 35);
+    line-height: 80px;
+    border-radius: 5% 25px;
+
+}
+
+.container ul {
+    margin-left: 35%;
+    font-family: cursive;
+    font-size: 20px;
+}
+
+.mainlist {
+    float: left;
+    list-style-type: none;
+    padding-left: 40px;
+}
+
+.mainlist a {
+    text-decoration: none;
+    color: black;
+}
+
+.sublist {
+    background-color: rgb(244, 121, 27);
+    width: 80px;
+    text-align: center;
+    list-style-type: none;
+    display: none;
+}
+
+.mainlist:hover {
+    .sublist {
+        display: block;
+    }
+}
